@@ -2,10 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>春暖花开母婴工作室</title>
+    <script type="text/javascript" src="lib/js/jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="lib/js/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function () {
+            alert("'欢迎")
+        })
+        function getInput() {
+            var val=$("#input").val();
+            alert(val);
+        }
+    </script>
 </head>
 <body>
-<h2>欢迎来到春暖花开</h2>
 <img src="image/icon.jpg">
+<input id="input" type="text">
+<input id="getInput" type="button"onclick="getInput()" value="按钮">
 </body>
 </html>
